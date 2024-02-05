@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#itemone{
+    background-color: red;
+    width: 300px;
+    flex-grow: 2;
+}
+
+#itemtwo{
+    background-color: blue;
+    width: 300px;
+    flex-shrink: 50;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
